@@ -1,13 +1,32 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap');
+
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+
+:root{
+    --oswald: 'Oswald';
+    --white: #ffffff;
+    --red: #DD1C1A;
+    --black: #000000;
+    --darkBlue: #0E1116;
+    --almostWhite: #FFF1D0;
+    --yellow: #F0C808;
+    --purple: #A657AE;
+}
+
+
+body{
+  width: max-content;
+  height: max-content;
+  overflow-x: hidden;
 }
